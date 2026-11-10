@@ -124,7 +124,7 @@ Colours, typography, and spacing tokens are declared at `:root` in `css/style.cs
 
 - **Principal Office:** 33A Clare Road, Gilford, BT636AG, Northern Ireland, UK
 - **Phone:** `+44 7498 206441`
-- **Email:** `morne@the1lifegroup.com`
+- **Email:** `info@1lifeaccounting.com`
 - **Team Leadership:**
   - **Dr Madelene Deacon** — Shareholder & Lead Advisor (CIBA, SAIT, Xero & Sage Partner)
   - **Karla van Rensburg** — Accountant & Financial Manager (AGA, BCom Accounting Sciences)

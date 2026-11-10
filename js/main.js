@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Details of Enquiry:\n${helpVal}`
       );
 
-      const mailtoUrl = `mailto:morne@the1lifegroup.com?subject=${subject}&body=${body}`;
+      const mailtoUrl = `mailto:info@1lifeaccounting.com?subject=${subject}&body=${body}`;
 
       // Open mail client
       window.location.href = mailtoUrl;
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Track lead generation upon genuine user-driven enquiry action
       trackAnalyticsEvent('generate_lead', {
-        form_destination: 'mailto:morne@the1lifegroup.com',
+        form_destination: 'mailto:info@1lifeaccounting.com',
         event_category: 'engagement'
       });
     });
