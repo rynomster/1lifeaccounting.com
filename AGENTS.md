@@ -33,13 +33,16 @@ Before making alterations to design, layout, or copy, consult [`DESIGN.md`](./DE
 - **Geographic Positioning:** Northern Ireland based (Gilford office) with cloud accounting services delivered remotely across the entire United Kingdom.
 
 ### 2.2 Verified Team Members & Portraits
-Only the following verified individuals are permitted on the site:
+Only the following verified individuals are permitted on the site. All four genuine portraits have been sourced and verified from the official Framer parent site (https://www.the1lifegroup.com/1life-accounting) and are stored locally in `assets/images/`:
 - **Dr Madelene Deacon:** Shareholder & Lead Advisor (PhD(Hc), CIBA, SAIT, Xero Partner) — Verified portrait (`assets/images/madelene-deacon.png`).
-- **Karla van Rensburg:** Accountant & Financial Manager (AGA, BCom Accounting Sciences - UNISA) — Dignified text-only profile card until verified portrait is provided.
-- **Morne Strydom:** Shareholder & Strategic Director (Director & Business Strategist) — Dignified text-only profile card until verified portrait is provided.
-- **Heather Strydom:** Workflow Specialist (Process Architecture & Systems) — Dignified text-only profile card until verified portrait is provided.
+- **Karla van Rensburg:** Accountant & Financial Manager (AGA, BCom Accounting Sciences - UNISA) — Verified portrait (`assets/images/karla-van-rensburg.jpg`, sourced from Framer active profile tab).
+- **Morne Strydom:** Shareholder & Strategic Director (Director & Business Strategist) — Verified portrait (`assets/images/morne-strydom.jpg`, sourced from Framer active profile tab).
+- **Heather Strydom:** Workflow Specialist (Process Architecture & Systems) — Verified portrait (`assets/images/heather-strydom.jpg`, confirmed website owner asset `P3BefoExln83ZRZWeXC6goZqft4.jpeg`).
 
-**Strict Prohibition:** Never substitute synthetic AI portraits or generic stock photography for actual staff. Never import property-development template data or images from the parent group site.
+**Strict Retention Rule:** Do NOT replace these portraits with text initials or generic avatars. Sourced portraits must be retained across both the Homepage and the About page. Never substitute synthetic AI portraits or generic stock photography for staff.
+
+### 2.3 Contact & Email Enquiries
+- All contact email references across all pages, footers, privacy policies, and form submissions must be directed to **`info@1lifeaccounting.com`** (never personal email addresses like `morne@the1lifegroup.com`).
 
 ### 2.3 Pricing Guardrails
 - Reference starting rate is **from £150/month** for monthly financial management, qualifying basic requirements.

@@ -94,12 +94,13 @@ Parent brand buttons have a distinct, polished appearance:
 ### 3.4 Imagery, Photography & Team Cards
 
 - **Authenticity Only:** Only use authentic, verified portraits. Never substitute synthetic AI avatars or generic stock portraits for actual staff.
-- **Verified Portraits:**
-  - **Dr Madelene Deacon:** Verified source portrait (`assets/images/madelene-deacon.png`, matching `PEeJZdLcdiirjtFuy32PoRmlrw.png` on the parent group site).
-- **Unverified Portraits:**
-  - Karla van Rensburg, Morne Strydom, Heather Strydom: Until high-resolution authoritative original photographs are confirmed and approved, represent these individuals using elegant, dignified **text-only profile cards** featuring their initials, full verified names, roles, credentials, and bios.
-  - Never display property-development stock photos or unverified images under staff names.
-- **Hero & Content Photography:** Warm, natural, professional imagery reflecting authentic Northern Ireland / UK business environments.
+- **Verified Team Portraits:** All four active team members have verified authentic portraits sourced from the official parent website (`https://www.the1lifegroup.com/1life-accounting`) and stored locally in `assets/images/`:
+  - **Dr Madelene Deacon:** Shareholder & Lead Advisor (`assets/images/madelene-deacon.png`, Framer asset `PEeJZdLcdiirjtFuy32PoRmlrw.png`).
+  - **Karla van Rensburg:** Accountant & Financial Manager (`assets/images/karla-van-rensburg.jpg`, Framer active tab asset `aB4zjc3fB9n3nX1NHMF7z5loc.jpeg` — woman with reddish hair outdoors with trees in the background).
+  - **Morne Strydom:** Shareholder & Strategic Director (`assets/images/morne-strydom.jpg`, Framer active tab asset `yJLsqPuEOd59HLKmbLhPhY7fo4.png`).
+  - **Heather Strydom:** Workflow Specialist (`assets/images/heather-strydom.jpg`, Framer confirmed owner asset `P3BefoExln83ZRZWeXC6goZqft4.jpeg`).
+- **Hero Photography:** Full-width photographic accounting hero background (`assets/images/hero-bg.jpg`, sourced from parent site `ZO14XVWQbLwsVZ8Ll2O91ytsP10.jpg`) with dark translucent text panel and green-and-white typography.
+- **Card Aesthetics:** 2px dark charcoal borders, 18px border radius, white backgrounds, large monochrome line icons (48–60px), bold headings, and responsive hover transitions (1Life green border, green icon accent, lift elevation).
 
 ## 4. Software Partnerships & Credentials
 
