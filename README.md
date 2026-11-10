@@ -51,7 +51,9 @@ The site is built with high performance, accessibility, and simplicity in mind:
 ├── js/
 │   └── main.js         # Navigation, accordion, form validation, and analytics dispatch
 ├── assets/
-│   └── images/         # Brand logos, team portraits, badges, and photography
+│   └── images/         # Brand logos, favicons, team portraits, badges, and photography
+├── favicon.ico         # Root fallback favicon
+├── site.webmanifest    # Web application manifest with brand tokens and app metadata
 ├── robots.txt          # Crawler instructions referencing XML sitemap
 └── sitemap.xml         # XML sitemap for search engines
 ```
