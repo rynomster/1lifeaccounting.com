@@ -174,26 +174,39 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Submission state
-      const submitBtn = document.getElementById('submit-btn');
-      const originalBtnText = submitBtn.innerHTML;
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Submitting Request...';
+      // Gather form values for honest direct dispatch
+      const nameVal = nameInput ? nameInput.value.trim() : '';
+      const emailVal = emailInput ? emailInput.value.trim() : '';
+      const companyVal = document.getElementById('company') ? document.getElementById('company').value.trim() : '';
+      const phoneVal = document.getElementById('phone') ? document.getElementById('phone').value.trim() : '';
+      const prefVal = document.getElementById('meeting-preference') ? document.getElementById('meeting-preference').value : 'virtual';
+      const helpVal = helpInput ? helpInput.value.trim() : '';
 
-      // Simulate network request with verified client-side feedback
-      setTimeout(() => {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = originalBtnText;
-        form.reset();
-        successBanner.style.display = 'block';
-        successBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      // Prepare mailto payload
+      const subject = encodeURIComponent(`1Life Accounting Consultation Request: ${nameVal}${companyVal ? ' (' + companyVal + ')' : ''}`);
+      const body = encodeURIComponent(
+        `Name: ${nameVal}\n` +
+        `Work Email: ${emailVal}\n` +
+        `Company: ${companyVal || 'N/A'}\n` +
+        `Phone: ${phoneVal || 'N/A'}\n` +
+        `Meeting Preference: ${prefVal}\n\n` +
+        `Details of Enquiry:\n${helpVal}`
+      );
 
-        // Dispatch GA4 conversion event
-        trackAnalyticsEvent('generate_lead', {
-          form_destination: '1life_accounting_consultation',
-          event_category: 'engagement'
-        });
-      }, 600);
+      const mailtoUrl = `mailto:morne@the1lifegroup.com?subject=${subject}&body=${body}`;
+
+      // Open mail client
+      window.location.href = mailtoUrl;
+
+      // Provide clear on-page guidance
+      successBanner.style.display = 'block';
+      successBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      // Track lead generation upon genuine user-driven enquiry action
+      trackAnalyticsEvent('generate_lead', {
+        form_destination: 'mailto:morne@the1lifegroup.com',
+        event_category: 'engagement'
+      });
     });
 
     // Clear error states on input
