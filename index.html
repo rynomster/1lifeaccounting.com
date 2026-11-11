@@ -39,7 +39,7 @@
     "logo": "https://1lifeaccounting.com/assets/images/logo.png",
     "description": "Practical outsourced accounting, bookkeeping, VAT, payroll, and management accounts for UK businesses.",
     "telephone": "+447498206441",
-    "email": "morne@the1lifegroup.com",
+    "email": "info@1lifeaccounting.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "33A Clare Road",
@@ -62,10 +62,12 @@
        ========================================================================== -->
   <header class="site-header">
     <div class="container nav-container">
-      <a href="./" class="brand-link" aria-label="1Life Accounting - Home">
-        <img src="assets/images/logo.png" alt="1Life Accounting Logo" class="brand-logo-img">
-        <span class="brand-relationship">Part of The 1Life Group</span>
-      </a>
+      <div class="brand-group">
+        <a href="./" class="brand-link" aria-label="1Life Accounting - Home">
+          <img src="assets/images/logo.png" alt="1Life Accounting Logo" class="brand-logo-img">
+        </a>
+        <a href="https://www.the1lifegroup.com" class="brand-relationship" target="_blank" rel="noopener noreferrer">Part of The 1Life Group</a>
+      </div>
 
       <nav class="nav-menu" id="primary-nav" aria-label="Main Navigation">
         <a href="./" class="nav-link active">Home</a>
@@ -87,47 +89,24 @@
 
   <main id="main-content">
     <!-- ==========================================================================
-         5.2 Hero - The Most Important Section
+         5.2 Hero - Full-Width Photographic Hero
          ========================================================================== -->
-    <section class="hero-section" aria-labelledby="hero-heading">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="eyebrow">Northern Ireland based. Supporting businesses across the UK.</div>
-          <h1 id="hero-heading" class="hero-title">Accounting that makes business clearer.</h1>
-          <p class="hero-intro">
-            Practical outsourced accounting, bookkeeping and financial management for UK businesses. We combine experienced people with Xero-enabled processes to help you stay on top of your numbers.
+    <section class="hero-section hero-fullwidth" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-overlay-card">
+          <h1 id="hero-heading" class="hero-headline">
+            <span class="headline-green">Modern Accounting</span>
+            <span class="headline-white">for UK Businesses</span>
+          </h1>
+          <p class="hero-desc">
+            Outsourced accounting for UK businesses, led by business people with real-world experience.
+          </p>
+          <p class="hero-subdesc">
+            Based in Northern Ireland, supporting clients across the UK with Xero-enabled bookkeeping, management accounts, VAT and Making Tax Digital.
           </p>
           <div class="hero-actions">
             <a href="contact/" class="btn btn-primary cta-track" data-cta="hero-book">Book a Free Consultation</a>
             <a href="services/" class="btn btn-outline">Explore Our Services</a>
-          </div>
-          <div class="hero-reassurance">
-            <div class="reassurance-item">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
-              <span>Free introductory consultation</span>
-            </div>
-            <div class="reassurance-item">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
-              <span>UK-wide remote support</span>
-            </div>
-            <div class="reassurance-item">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
-              <span>Northern Ireland appointments</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-media-wrapper">
-          <div class="hero-card">
-            <img src="assets/images/hero-bg.jpg" alt="Modern collaborative office environment" class="hero-media-image">
-            <div class="hero-card-summary">
-              <h3>Dedicated financial operations</h3>
-              <p>Clarity in your numbers gives you confidence in your business. We handle day-to-day administration, statutory filings and monthly reporting so you can focus on leading your company.</p>
-              <div class="hero-card-badge">
-                <img src="assets/images/xero-partner.png" alt="Xero Partner Badge">
-                <span>Accredited cloud accounting partner</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -443,8 +422,8 @@
 
           <!-- Karla van Rensburg -->
           <div class="team-profile-card">
-            <div class="team-text-avatar" aria-hidden="true">
-              <span class="team-avatar-initials">KR</span>
+            <div class="team-image-container">
+              <img src="assets/images/karla-van-rensburg.jpg" alt="Karla van Rensburg - Accountant & Financial Manager">
             </div>
             <div class="team-card-body">
               <span class="team-member-role">Accountant & Financial Manager</span>
@@ -458,8 +437,8 @@
 
           <!-- Morne Strydom -->
           <div class="team-profile-card">
-            <div class="team-text-avatar" aria-hidden="true">
-              <span class="team-avatar-initials">MS</span>
+            <div class="team-image-container">
+              <img src="assets/images/morne-strydom.jpg" alt="Morne Strydom - Shareholder & Strategic Director">
             </div>
             <div class="team-card-body">
               <span class="team-member-role">Shareholder & Strategic Director</span>
@@ -473,8 +452,8 @@
 
           <!-- Heather Strydom -->
           <div class="team-profile-card">
-            <div class="team-text-avatar" aria-hidden="true">
-              <span class="team-avatar-initials">HS</span>
+            <div class="team-image-container">
+              <img src="assets/images/heather-strydom.jpg" alt="Heather Strydom - Workflow Specialist">
             </div>
             <div class="team-card-body">
               <span class="team-member-role">Workflow Specialist</span>
@@ -589,7 +568,7 @@
           <p>
             Practical outsourced accounting, bookkeeping and financial management for businesses across Northern Ireland and the United Kingdom.
           </p>
-          <span class="footer-group-badge">Part of The 1Life Group</span>
+          <a href="https://www.the1lifegroup.com" class="footer-group-badge" target="_blank" rel="noopener noreferrer">Part of The 1Life Group</a>
         </div>
 
         <div class="footer-col">
@@ -620,13 +599,13 @@
             <li>33A Clare Road, Gilford, BT636AG</li>
             <li>Northern Ireland, United Kingdom</li>
             <li><a href="tel:07498206441" class="phone-track">07498 206441</a></li>
-            <li><a href="mailto:morne@the1lifegroup.com" class="email-track">morne@the1lifegroup.com</a></li>
+            <li><a href="mailto:info@1lifeaccounting.com" class="email-track">info@1lifeaccounting.com</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom-bar">
-        <p>&copy; <span id="current-year"></span> 1Life Accounting. All rights reserved. A member of The 1Life Group.</p>
+        <p>&copy; <span id="current-year"></span> 1Life Accounting. All rights reserved. A member of <a href="https://www.the1lifegroup.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">The 1Life Group</a>.</p>
         <div class="footer-bottom-links">
           <a href="privacy/">Privacy Notice</a>
           <a href="cookies/">Cookie Policy</a>
