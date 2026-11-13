@@ -30,7 +30,7 @@ Before making alterations to design, layout, or copy, consult [`DESIGN.md`](./DE
 ### 2.1 Identity & Positioning
 - **Official Name:** Use `1Life Accounting` consistently.
 - **Group Relationship:** Always acknowledge the supporting relationship as `Part of The 1Life Group`.
-- **Geographic Positioning:** Northern Ireland based (Gilford office) with cloud accounting services delivered remotely across the entire United Kingdom.
+- **Geographic Positioning:** Based in Gilford, Northern Ireland, serving clients across the UK with modern accounting, financial guidance and business support.
 
 ### 2.2 Verified Team Members & Portraits
 Only the following verified individuals are permitted on the site. All four genuine portraits have been sourced and verified from the official Framer parent site (https://www.the1lifegroup.com/1life-accounting) and are stored locally in `assets/images/`:
@@ -42,16 +42,24 @@ Only the following verified individuals are permitted on the site. All four genu
 **Strict Retention Rule:** Do NOT replace these portraits with text initials or generic avatars. Sourced portraits must be retained across both the Homepage and the About page. Never substitute synthetic AI portraits or generic stock photography for staff.
 
 ### 2.3 Contact & Email Enquiries
-- All contact email references across all pages, footers, privacy policies, and form submissions must be directed to **`info@1lifeaccounting.com`** (never personal email addresses like `morne@the1lifegroup.com`).
+- Keep all current contact email links, footers, privacy policies, and form submissions directed to **`info@1lifeaccounting.com`**. The advertisement displays `admin@1lifeaccounting.com`; do not switch the destination unless the client confirms the change. Never use personal email addresses.
 
-### 2.3 Pricing Guardrails
-- Reference starting rate is **from £150/month** for monthly financial management, qualifying basic requirements.
-- Clearly state that comprehensive outsourced accounting is tailored to business needs; never advertise £150 as an "all-inclusive" package.
+### 2.4 Pricing Guardrails
+- Reference starting rate is **from £150/month** for monthly financial management, subject to qualifying basic requirements.
+- Describe accounting services and financial support as tailored to business needs; never imply that 1Life Accounting takes over a client’s entire finance function. The £150/month starting rate is for qualifying basic requirements and is not an all-inclusive package.
 
-### 2.4 Software Accreditations
-- Use **Xero Partner** (verified). Do not display unsupported "Xero Gold Partner" badges.
+### 2.5 Software and Tools
+- Do not promote or name a specific accounting software provider, integration or credential in general marketing. Exception: Dr Madelene Deacon’s verified Xero Partner credential may remain in her biography only. Describe technology benefits generally: cloud-based efficiencies, automated tools, digital processes and secure collaboration.
 
-### 2.5 The Six Verified Service Categories
+### 2.6 Approved Positioning and Consultation Offer
+- Use entrepreneur-led language: the team understands business ownership because they are building businesses too.
+- The approved consultation offer is a **free first virtual consultation**. Do not promise additional free services or a free in-person meeting.
+- Use the approved themes: plain-English advice, modern automated cloud-powered tools, and real support when clients need it.
+- Describe the service area as Northern Ireland based and serving clients across the UK.
+- Do not mention specific accounting software providers, partner credentials or integrations in public marketing copy. Dr Madelene Deacon’s verified Xero Partner credential may appear in her biography only.
+- Do not use outsourcing terminology or imply that 1Life Accounting assumes a client’s whole finance department or back-office operation.
+
+### 2.7 The Six Verified Service Categories
 1. Bookkeeping & Financial Administration
 2. Management Accounts
 3. VAT & Making Tax Digital (MTD)
