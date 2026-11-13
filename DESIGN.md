@@ -19,13 +19,13 @@
 
 Create the independent online home of **1Life Accounting**, a Northern Ireland-based accounting and business support offering serving clients across the United Kingdom.
 
-A visitor familiar with `https://www.the1lifegroup.com/` must immediately recognise `https://1lifeaccounting.com/` as part of the same brand family. It must look professional, spacious, elegant, and authentic—avoiding generic SaaS templates, floating 3D elements, excessive pill badges, or unverified software partner claims.
+A visitor familiar with `https://www.the1lifegroup.com/` must immediately recognise `https://1lifeaccounting.com/` as part of the same brand family. It must look professional, spacious, elegant and authentic—avoiding generic SaaS templates, floating 3D elements, excessive pill badges or unsupported claims.
 
 The website must make four things obvious within five seconds:
-1. **Who we help:** UK businesses seeking dependable, outsourced accounting support and clear financial visibility.
-2. **What we do:** Bookkeeping, management accounts, VAT, payroll, annual accounts, and business advisory, with Xero-enabled processes.
+1. **Who we help:** UK businesses seeking dependable accounting services, financial guidance and clear visibility.
+2. **What we do:** Bookkeeping, management accounts, VAT, payroll, annual accounts and business support, supported by modern cloud-based processes.
 3. **Why choose us:** Practical business insight, experienced professionals, and personal, technology-enabled support.
-4. **What to do next:** Request a **free introductory consultation**.
+4. **What to do next:** Book a **free first virtual consultation** — no pressure, just a proper conversation about the business.
 
 ## 2. Brand Positioning & Tone of Voice
 
@@ -102,10 +102,16 @@ Parent brand buttons have a distinct, polished appearance:
 - **Hero Photography:** Full-width photographic accounting hero background (`assets/images/hero-bg.jpg`, sourced from parent site `ZO14XVWQbLwsVZ8Ll2O91ytsP10.jpg`) with dark translucent text panel and green-and-white typography.
 - **Card Aesthetics:** 2px dark charcoal borders, 18px border radius, white backgrounds, large monochrome line icons (48–60px), bold headings, and responsive hover transitions (1Life green border, green icon accent, lift elevation).
 
-## 4. Software Partnerships & Credentials
+## 4. Approved Positioning & Content Rules
 
-- **Xero:** Verified as **Xero Partner** (accredited cloud accounting). Do **not** use "Gold Partner" badge or claim unverified Gold status unless formally substantiated by 1Life management.
-- **Pricing:** Monthly financial management **from £150/month** for qualifying basic requirements. Explicitly qualify that full accounting, VAT, payroll, and advisory fees are tailored to client scale and scope.
+- 1Life Accounting provides accounting services, financial guidance and business support. Do not position it as an outsourcing business or imply it takes over a client’s entire finance department or back-office operation.
+- Do not promote or name specific accounting software providers, software badges or integrations in general marketing. Dr Madelene Deacon’s verified Xero Partner credential may remain in her biography only. Describe modern cloud-based accounting, automated tools, digital efficiencies and secure collaboration in general terms.
+- Position the team as led by entrepreneurs who understand the challenges of building a business because they are doing it too.
+- Approved benefit themes: plain-English advice; modern, automated, cloud-powered tools; real support when needed; experienced business leadership; and using the numbers to understand business health.
+- The approved introductory offer is a free first virtual consultation. Do not promise additional free services or a free in-person consultation.
+- Describe the location as Northern Ireland based and serving clients across the UK.
+- Monthly financial management starts **from £150/month** for qualifying basic requirements. State that this is not an all-inclusive package and that scope and fees are tailored to client requirements.
+- Qualifications and affiliations must be attributed only to the verified team member who holds them. Do not imply every team member holds every qualification.
 
 ## 5. Contact Enquiries & Technical Integrity
 

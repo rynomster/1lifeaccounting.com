@@ -639,6 +639,26 @@ p:last-child {
   gap: 2.25rem;
 }
 
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.benefits-grid .trust-pillar {
+  grid-column: span 2;
+}
+
+@media (min-width: 861px) {
+  .benefits-grid .trust-pillar:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .benefits-grid .trust-pillar:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+}
+
 .trust-pillar {
   display: flex;
   flex-direction: column;
@@ -699,15 +719,35 @@ p:last-child {
 }
 
 @media (max-width: 860px) {
-  .trust-grid {
+  .trust-grid,
+  .benefits-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem 1.5rem;
+  }
+
+  .benefits-grid .trust-pillar:nth-child(4),
+  .benefits-grid .trust-pillar:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .benefits-grid .trust-pillar { grid-column: span 1; }
+
+  .benefits-grid .trust-pillar:last-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 0.75rem);
+    justify-self: center;
   }
 }
 
 @media (max-width: 520px) {
-  .trust-grid {
+  .trust-grid,
+  .benefits-grid {
     grid-template-columns: 1fr;
+  }
+
+  .benefits-grid .trust-pillar:last-child {
+    grid-column: auto;
+    width: 100%;
   }
 }
 

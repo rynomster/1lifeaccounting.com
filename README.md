@@ -1,132 +1,53 @@
 # 1Life Accounting
 
 **Website:** [1lifeaccounting.com](https://1lifeaccounting.com)
-**Parent Brand:** [The 1Life Group](https://www.the1lifegroup.com)
-**Location:** 33A Clare Road, Gilford, BT636AG, Northern Ireland, United Kingdom
+**Parent brand:** [The 1Life Group](https://www.the1lifegroup.com)
+**Location:** 33A Clare Road, Gilford, BT63 6AG, Northern Ireland, United Kingdom
 
----
+## About the site
 
-## Overview
+1Life Accounting is part of The 1Life Group. Based in Northern Ireland, it provides accounting services, financial guidance and business support to clients across the UK. The team is led by entrepreneurs who understand the challenges of running a business.
 
-**1Life Accounting** is the independent online home for the accounting and business support division of The 1Life Group. Based in Northern Ireland and serving clients throughout the United Kingdom, 1Life Accounting delivers dependable, outsourced accounting, bookkeeping, and financial management for small and medium-sized enterprises (SMEs).
+The approved public positioning centres on plain-English advice, modern cloud-based efficiencies and personal support. The main conversion offer is a free first virtual consultation.
 
-The platform is designed to provide immediate clarity on four core pillars:
-1. **Who we help:** UK business owners and directors looking for reliable, outsourced financial administration and clearer business insight.
-2. **What we do:** Bookkeeping, management accounts, VAT & Making Tax Digital (MTD), payroll support, annual statutory compliance, and strategic financial advisory.
-3. **Why choose us:** Decades of commercial leadership, hands-on accounting rigor, and modern Xero-enabled paperless workflows.
-4. **Next step:** A fast, low-friction enquiry for a free introductory consultation (in-person or remote video).
+## Architecture
 
----
+This is a static website built with semantic HTML, CSS and minimal vanilla JavaScript. There is no build step or frontend framework. The client manages routine content changes through GitHub and Codex.
 
-## Architecture & Technology Stack
+- `index.html` — homepage
+- `services/index.html` — detailed service descriptions and monthly financial management starting rate
+- `about/index.html` — company story and verified team biographies
+- `contact/index.html` — consultation request form and contact information
+- `privacy/index.html`, `cookies/index.html` — policies
+- `css/style.css` — design tokens, layout and responsive styling
+- `js/main.js` — navigation, FAQ, form and analytics interactions
+- `assets/images/` — brand and team photography
 
-The site is built with high performance, accessibility, and simplicity in mind:
+## Verified team
 
-- **Markup:** Semantic, crawlable HTML5 with Open Graph and Schema.org structured data (`AccountingService` / `Organization`).
-- **Styling:** Modular vanilla CSS3 (`/css/style.css`) using CSS Custom Properties (design tokens) for typography, spacing, and colours. No heavy utility frameworks.
-- **Interactivity:** Vanilla JavaScript (`/js/main.js`) powering accessible mobile navigation, FAQ accordion toggles, client-side form validation, and Google Analytics 4 (GA4) event tracking.
-- **Assets:** Locally hosted and optimised imagery under `/assets/images/` (PNG, JPG, SVG).
-- **Fonts:** Manrope (headings) & Inter (body) loaded via Google Fonts with preconnects.
+- **Dr Madelene Deacon** — Shareholder & Lead Advisor (PhD(Hc), CIBA, SAIT, Xero Partner)
+- **Karla van Rensburg** — Accountant & Financial Manager (AGA, BCom Accounting Sciences, UNISA)
+- **Morne Strydom** — Shareholder & Strategic Director
+- **Heather Strydom** — Workflow Specialist
 
-### Directory Structure
+Retain the verified team portraits on the homepage and About page. Do not invent credentials, testimonials, awards, team members or service claims. Attribute qualifications only to the team members confirmed to hold them.
 
-```
-.
-├── DESIGN.md           # Comprehensive design brief, specifications & guidelines
-├── AGENTS.md           # Instructions and guardrails for AI coding assistants
-├── README.md           # Project documentation and developer reference
-├── index.html          # Homepage (Hero, pillars, service preview, team preview, FAQ, CTA)
-├── services/
-│   └── index.html      # Detailed breakdown of all six core service areas
-├── about/
-│   └── index.html      # Company background, philosophy, and detailed leadership bios
-├── contact/
-│   └── index.html      # Consultation booking form, office address, and contact points
-├── privacy/
-│   └── index.html      # UK GDPR-compliant privacy notice
-├── cookies/
-│   └── index.html      # Cookie usage and consent disclosure
-├── css/
-│   └── style.css       # Design tokens, responsive grid system, and component styles
-├── js/
-│   └── main.js         # Navigation, accordion, form validation, and analytics dispatch
-├── assets/
-│   └── images/         # Brand logos, favicons, team portraits, badges, and photography
-├── favicon.ico         # Root fallback favicon
-├── site.webmanifest    # Web application manifest with brand tokens and app metadata
-├── robots.txt          # Crawler instructions referencing XML sitemap
-└── sitemap.xml         # XML sitemap for search engines
-```
+## Approved content rules
 
----
+- Use British English.
+- Describe accounting services, financial guidance and business support; do not position the business as an outsourcing provider.
+- Do not promote specific accounting software providers, badges or integrations in general marketing. Dr Madelene Deacon’s verified Xero Partner credential may appear in her biography only. Use general descriptions such as cloud-based accounting, automated tools, digital efficiencies and secure collaboration.
+- The offer is a free first virtual consultation. Do not promise extra free services or free in-person consultations.
+- State that the business is based in Northern Ireland and serves clients across the UK.
+- The monthly financial management reference rate is from £150/month for qualifying basic requirements. This is not an all-inclusive package; scope and fees are tailored.
+- Keep all public contact destinations consistent with `info@1lifeaccounting.com` until the client confirms whether the advertisement’s `admin@1lifeaccounting.com` address should replace it.
 
-## Core Services
+## Local preview
 
-1. **Bookkeeping & Financial Administration:** Transaction recording, customer debtor management, supplier reconciliations, and payment scheduling.
-2. **Management Accounts:** Monthly performance reports, cash flow analysis, and working capital reviews.
-3. **VAT & Making Tax Digital (MTD):** Quarterly VAT preparation, reconciliations, and direct digital HMRC submissions.
-4. **Payroll Support:** Payslip generation, Real Time Information (RTI) reporting, and workplace pension auto-enrolment.
-5. **Annual Accounts & Compliance:** Year-end statutory accounts, balance sheet reviews, and Companies House confirmation statements.
-6. **Business & Financial Support:** Diagnostics, workflow mapping, cloud software migrations, and strategic financial planning.
+Run a static server from the repository root, for example:
 
----
-
-## Local Development
-
-No build step or package manager is strictly required. Any static HTTP server can serve the repository root.
-
-### Using Python
 ```bash
 python3 -m http.server 8000
 ```
-Open `http://localhost:8000` in your web browser.
 
-### Using Node.js (`npx serve` or `http-server`)
-```bash
-npx serve .
-# or
-npx http-server -p 8000
-```
-
----
-
-## Design System & Tokens
-
-Colours, typography, and spacing tokens are declared at `:root` in `css/style.css`:
-
-| Token | Value | Description |
-|---|---|---|
-| `--color-ink` | `#172B32` | Primary dark tone for headings, footers, dark panels |
-| `--color-text` | `#24363B` | Body copy |
-| `--color-muted` | `#617075` | Secondary text, captions, metadata |
-| `--color-primary` | `#206B5A` | Deep forest green for primary buttons, active links |
-| `--color-primary-hover` | `#185244` | Darker green for hover and active button states |
-| `--color-soft` | `#EAF3EF` | Soft sage tint for highlighted cards and hero accents |
-| `--color-page` | `#F8FAF8` | Off-white subtle background |
-| `--color-border` | `#DEE6E2` | Border and divider lines |
-
-### Typography
-- **Headings:** Manrope (`font-weight: 600, 700, 800`)
-- **Body:** Inter (`font-weight: 400, 500, 600`)
-
----
-
-## SEO & Accessibility
-
-- **Standards:** Designed to meet **WCAG 2.2 AA** guidelines (proper contrast ratios, keyboard-accessible menus/drawers, visible focus outlines, ARIA attributes).
-- **Metadata:** Unique title tags, meta descriptions, Open Graph cards, and canonical URLs on every page.
-- **Structured Data:** Embedded JSON-LD schema (`AccountingService`) on the homepage referencing official address, contact details, and parent organization.
-- **Performance:** Clean static markup and zero external CSS/JS framework overhead ensures high Core Web Vitals and Lighthouse scores.
-
----
-
-## Contact & Team
-
-- **Principal Office:** 33A Clare Road, Gilford, BT636AG, Northern Ireland, UK
-- **Phone:** `+44 7498 206441`
-- **Email:** `info@1lifeaccounting.com`
-- **Team Leadership:**
-  - **Dr Madelene Deacon** — Shareholder & Lead Advisor (CIBA, SAIT, Xero & Sage Partner)
-  - **Karla van Rensburg** — Accountant & Financial Manager (AGA, BCom Accounting Sciences)
-  - **Morne Strydom** — Shareholder & Strategic Director
-  - **Heather Strydom** — Workflow Specialist & Process Architect
+Then open `http://localhost:8000/`.
