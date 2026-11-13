@@ -718,6 +718,34 @@ p:last-child {
   margin: 0;
 }
 
+/* Partnership Benefits: horizontal cards, icon left, text reads left to right */
+.benefits-grid .trust-pillar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: start;
+  text-align: left;
+  column-gap: 1.25rem;
+  row-gap: 0.5rem;
+  padding: 1.75rem;
+}
+
+.benefits-grid .pillar-icon {
+  grid-row: 1 / span 2;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 0;
+}
+
+.benefits-grid .pillar-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.benefits-grid .trust-pillar h3 {
+  align-self: end;
+}
+
 @media (max-width: 860px) {
   .trust-grid,
   .benefits-grid {
