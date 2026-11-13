@@ -1213,6 +1213,15 @@ p:last-child {
   transition: transform 0.4s ease;
 }
 
+/* Frame these tighter source portraits so the full face remains visible. */
+.team-image-container img.portrait-morne {
+  object-position: center 50%;
+}
+
+.team-image-container img.portrait-heather {
+  object-position: center 50%;
+}
+
 .team-profile-card:hover .team-image-container img {
   transform: scale(1.03);
 }
