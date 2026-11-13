@@ -718,32 +718,19 @@ p:last-child {
   margin: 0;
 }
 
-/* Partnership Benefits: horizontal cards, icon left, text reads left to right */
-.benefits-grid .trust-pillar {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr;
-  align-items: start;
-  text-align: left;
-  column-gap: 1.25rem;
-  row-gap: 0.5rem;
-  padding: 1.75rem;
-}
+/* Partnership Benefits: all five cards in one row on wider screens */
+@media (min-width: 1025px) {
+  .benefits-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
 
-.benefits-grid .pillar-icon {
-  grid-row: 1 / span 2;
-  width: 52px;
-  height: 52px;
-  margin-bottom: 0;
-}
-
-.benefits-grid .pillar-icon svg {
-  width: 40px;
-  height: 40px;
-}
-
-.benefits-grid .trust-pillar h3 {
-  align-self: end;
+  .benefits-grid .trust-pillar,
+  .benefits-grid .trust-pillar:nth-child(4),
+  .benefits-grid .trust-pillar:nth-child(5) {
+    grid-column: auto;
+    padding: 2rem 1.25rem;
+  }
 }
 
 @media (max-width: 860px) {
