@@ -397,11 +397,14 @@ p:last-child {
 }
 
 .nav-link {
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-heading);
   font-size: 0.9375rem;
   font-weight: 600;
   color: #ffffff;
-  padding: 0.25rem 0;
+  min-height: 44px;
+  padding: 0.25rem 0.15rem;
   position: relative;
   transition: color var(--transition-fast);
 }
@@ -513,7 +516,7 @@ p:last-child {
   display: flex;
   align-items: center;
   background-color: #0b1112;
-  background-image: url('../assets/images/hero-bg.jpg');
+  background-image: url('../assets/images/hero-bg.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -986,7 +989,7 @@ p:last-child {
   height: 22px;
 }
 
-.editorial-item-text h4 {
+.editorial-item-text h3 {
   font-size: 1.125rem;
   margin-bottom: 0.35rem;
   color: var(--color-deep-teal);
@@ -1464,7 +1467,7 @@ p:last-child {
   height: 20px;
 }
 
-.contact-point-details h4 {
+.contact-point-details h3 {
   font-size: 0.8125rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1666,7 +1669,7 @@ textarea {
   color: #ffffff;
 }
 
-.footer-col h4 {
+.footer-col h2 {
   font-size: 0.9375rem;
   color: var(--color-surface-white);
   text-transform: uppercase;
