@@ -718,6 +718,21 @@ p:last-child {
   margin: 0;
 }
 
+/* Partnership Benefits: all five cards in one row on wider screens */
+@media (min-width: 1025px) {
+  .benefits-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .benefits-grid .trust-pillar,
+  .benefits-grid .trust-pillar:nth-child(4),
+  .benefits-grid .trust-pillar:nth-child(5) {
+    grid-column: auto;
+    padding: 2rem 1.25rem;
+  }
+}
+
 @media (max-width: 860px) {
   .trust-grid,
   .benefits-grid {
