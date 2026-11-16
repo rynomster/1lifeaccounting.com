@@ -626,6 +626,79 @@ p:last-child {
   }
 }
 
+/* Hero: main card on the left, Next Steps card on the right */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-grid .hero-overlay-card {
+  max-width: none;
+}
+
+.hero-next-steps {
+  background-color: var(--color-surface-white);
+  border-radius: 20px;
+  padding: 2.5rem 2.25rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.hero-next-steps .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.hero-next-steps h2 {
+  font-size: clamp(1.6rem, 2.4vw, 2rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-next-steps p {
+  color: var(--color-muted);
+  line-height: 1.65;
+  margin-bottom: 1.75rem;
+}
+
+.hero-next-steps .conversion-box-actions {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.85rem;
+}
+
+.hero-next-steps .btn {
+  width: 100%;
+  text-align: center;
+}
+
+/* Undo the hero's white-on-dark outline button inside the white card */
+.hero-fullwidth .hero-next-steps .btn-outline {
+  border-color: var(--color-deep-teal);
+  color: var(--color-deep-teal);
+  background-color: transparent;
+}
+
+.hero-fullwidth .hero-next-steps .btn-outline:hover,
+.hero-fullwidth .hero-next-steps .btn-outline:focus-visible {
+  background-color: var(--color-deep-teal);
+  border-color: var(--color-deep-teal);
+  color: var(--color-surface-white);
+}
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-next-steps {
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+  }
+}
+
 /* ==========================================================================
    Trust & Positioning Strip
    ========================================================================== */
