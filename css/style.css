@@ -626,7 +626,7 @@ p:last-child {
   }
 }
 
-/* Hero: main card on the left, Next Steps card on the right */
+/* Hero: main card on the left, "Now taking on new clients" card on the right */
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
@@ -643,10 +643,6 @@ p:last-child {
   border-radius: 20px;
   padding: 2.5rem 2.25rem;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
-}
-
-.hero-next-steps .eyebrow {
-  margin-bottom: 0.75rem;
 }
 
 .hero-next-steps h2 {
